@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 140%;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  background-color: #d5e1ef;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  line-height: 120%;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+/* Container */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  /* by default flex items stretches because of align-items default stretch value */
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  max-width: 20rem;
+  background-color: #fff;
+}
